@@ -1,6 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-export const Loader = () => {
+const Loader = () => {
   return <div>Loader</div>;
 };
+
+export default Loader;
