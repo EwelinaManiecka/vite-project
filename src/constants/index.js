@@ -206,19 +206,20 @@ const projects = [
       "Web-based platform that allows users to search country and basic information about this.",
     tags: [
       {
-        name: "react",
+        name: "javaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "html",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
+    source_link: "https://ewelinamaniecka.github.io/country-search-new/",
     source_code_link: "https://ewelinamaniecka.github.io/country-search-new/",
   },
   {
@@ -227,51 +228,32 @@ const projects = [
       "Webpage with information, contact and advertisment some company.",
     tags: [
       {
-        name: "html, css",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "scss",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javaScript",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
+    source_link: "https://ewelinamaniecka.github.io/tropical-paradise/",
     source_code_link: "https://ewelinamaniecka.github.io/tropical-paradise/",
   },
   {
-    name: "Car Rent",
+    name: "Webpage for gammers",
     description: "Webpage built in bootstrap 5",
     tags: [
       {
-        name: "html, css, bootstrap 5",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://ewelinamaniecka.github.io/bootstrap-page/",
-  },
-  {
-    name: "Space X",
-    description: "Web application with information about space travel.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "bootstrap 5",
         color: "green-text-gradient",
       },
       {
@@ -279,11 +261,33 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://ewelinamaniecka.github.io/space-x/",
+    image: carrent,
+    source_link: "https://ewelinamaniecka.github.io/bootstrap-page/",
+    source_code_link: "https://ewelinamaniecka.github.io/bootstrap-page/",
   },
+  // {
+  //   name: "Space X",
+  //   description: "Web application with information about space travel.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_link: "https://ewelinamaniecka.github.io/space-x/",
+  //   source_code_link: "https://ewelinamaniecka.github.io/space-x/",
+  // },
   {
-    name: "Trip Guide",
+    name: "Todo App",
     description:
       "Basic aplication when we can add (delete and change) something what we should do. .",
     tags: [
@@ -292,39 +296,41 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javaScript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
+    source_link: "https://ewelinamaniecka.github.io/todo-app-tasks/",
     source_code_link: "https://ewelinamaniecka.github.io/todo-app-tasks/",
   },
+  // {
+  //   name: "Digital clock",
+  //   description: "Webpage with digital clock with many colours.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_link: "https://ewelinamaniecka.github.io/digital-clock/",
+  //   source_code_link: "https://ewelinamaniecka.github.io/digital-clock/",
+  // },
   {
-    name: "Digital clock",
-    description: "Webpage with digital clock with many colours.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://ewelinamaniecka.github.io/digital-clock/",
-  },
-  {
-    name: "Trip Guide",
+    name: "Memory game",
     description: "Memory game build in react.",
     tags: [
       {
@@ -336,15 +342,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javaScript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
+    source_link: "https://ewelinamaniecka.github.io/memory-game-react/",
     source_code_link: "https://ewelinamaniecka.github.io/memory-game-react/",
   },
   {
-    name: "Trip Guide",
+    name: "WeatherApp",
     description: "Basic weather application.",
     tags: [
       {
@@ -361,6 +368,7 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_link: "https://ewelinamaniecka.github.io/weather-app-basic-version/",
     source_code_link:
       "https://ewelinamaniecka.github.io/weather-app-basic-version/",
   },
