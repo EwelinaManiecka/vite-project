@@ -308,27 +308,27 @@ const projects = [
     source_link: "https://ewelinamaniecka.github.io/todo-app-tasks/",
     source_code_link: "https://ewelinamaniecka.github.io/todo-app-tasks/",
   },
-  // {
-  //   name: "Digital clock",
-  //   description: "Webpage with digital clock with many colours.",
-  //   tags: [
-  //     {
-  //       name: "html",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_link: "https://ewelinamaniecka.github.io/digital-clock/",
-  //   source_code_link: "https://ewelinamaniecka.github.io/digital-clock/",
-  // },
+  {
+    name: "Digital clock",
+    description: "Webpage with digital clock with many colours.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_link: "https://ewelinamaniecka.github.io/digital-clock/",
+    source_code_link: "https://ewelinamaniecka.github.io/digital-clock/",
+  },
   {
     name: "Memory game",
     description: "Memory game build in react.",
