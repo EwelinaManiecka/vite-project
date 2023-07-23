@@ -18,7 +18,7 @@ import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
 import Tech from "./components/Tech";
 import Works from "./components/Works";
-// import {StarsCanvas} from "./components/"
+import StarsCanvas from "./components/Stars";
 
 const App = () => {
   return (
@@ -35,7 +35,7 @@ const App = () => {
         <Feedbacks />
         <div className="relative z-0">
           <Contact />
-          {/* <StarsCanvas /> */}
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
