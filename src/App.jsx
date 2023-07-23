@@ -11,7 +11,7 @@ import { BrowserRouter } from "react-router-dom";
 //   StarsCanvas,
 // } from "./components";
 import About from "./components/About";
-import { Contact } from "./components/Contact";
+import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Feedbacks from "./components/Feedbacks";
 import { Hero } from "./components/Hero";
