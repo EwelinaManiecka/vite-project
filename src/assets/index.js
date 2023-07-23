@@ -30,6 +30,13 @@ import stanislaw from "./company/stanislaw.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import country from "./country-search.png";
+import clock from "./digital-clock.png";
+import memory from "./memory-game.png";
+import gamers from "./pro-gamers.png";
+import todoApp from "./todo-app.png";
+import paradise from "./tropical-paradise.png";
+import weather from "./weather-app.png";
 
 export {
   logo,
@@ -61,4 +68,11 @@ export {
   jobit,
   tripguide,
   stanislaw,
+  country,
+  clock,
+  memory,
+  gamers,
+  todoApp,
+  paradise,
+  weather,
 };
