@@ -9,6 +9,15 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+// const passport = require("passport");
+// const passportJWT = require("passport-jwt");
+// require("dotenv").config();
+
+// const secretEmailTemplate = process.env.EMAIL_TEMPLATES;
+// const secretEmailService = process.env.EMAIL_SERVICE;
+// const secretApiKey = process.env.API_KEY;
+// const myEmail = process.env.MY_EMAIL;
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -18,11 +27,51 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
-  const handleChange = (e) => {};
-  const handleSubmit = (e) => {};
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    // e.preventDefault();
+    // setLoading(true);
+    // emailjs
+    //   .send(
+    //     "secretEmailService",
+    //     "secretEmailTemplate",
+    //     {
+    //       from_name: form.name,
+    //       to_name: "Ewelina",
+    //       form_email: form.email,
+    //       to_email: "emaniecka3@gmail.com",
+    //       message: form.message,
+    //     },
+    //     "secretApiKey-gYJ"
+    //   )
+    //   .then(
+    //     () => {
+    //       setLoading(false);
+    //       alert(
+    //         "Thank you for your email. I will get back to you as soon as possible"
+    //       );
+    //       setForm({
+    //         name: "",
+    //         email: "",
+    //         message: "",
+    //       });
+    //     },
+    //     (error) => {
+    //       setLoading(false);
+    //       console.log(error);
+    //       alert("Something went wrong");
+    //     }
+    //   );
+  };
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
@@ -82,7 +131,7 @@ const Contact = () => {
         </form>
       </motion.div>
       <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
+        variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />

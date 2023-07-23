@@ -20,6 +20,10 @@ import Tech from "./components/Tech";
 import Works from "./components/Works";
 import StarsCanvas from "./components/Stars";
 
+// const passport = require("passport");
+// const passportJWT = require("passport-jwt");
+// require("dotenv").config();
+
 const App = () => {
   return (
     <BrowserRouter>
