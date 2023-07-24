@@ -45,11 +45,11 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a junior front-end developer. I like React, Node.js and I learn
-        Three.js. Soon I want to lern TypeScript as well. I talk Spanish
-        fluently and English good. I'm from Poland and in this case, I talk
-        fluently Polish. I was a teacher, I work very well with people. I learn
-        new skills quickly. I was also an editor of books, the basics of UX/UI
-        are no strangers to me. I olso like to draw. I konw the basics of vector
+        Three.js. Soon I want lern TypeScript as well. I speak Spanish fluently
+        and English good. I come from Poland and therefore I speak fluently
+        Polish. I was a teacher, I work very well with people. I learn new
+        skills quickly. I was also an editor of books, the basics of UX/UI are
+        no strangers to me. I also like to draw. I know the basics of vector
         graphics and photo processing. I would like to acquire knowledge and
         experience working alongside the best programmers.
       </motion.p>
