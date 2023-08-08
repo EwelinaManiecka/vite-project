@@ -132,13 +132,13 @@ const experiences = [
     points: [
       "Teaching children and young people.",
       "Collaborating with parents of children and young people.",
-      "Colaborating with teachers and the local community.",
+      "Collaborating with teachers and the local community.",
       "Organizing leisure time for children and teenagers.",
     ],
   },
   {
     title: "Personal data administrator",
-    company_name: "Klinika małżeńska",
+    company_name: "Marriage Center",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "December 2019 - February 2020",
@@ -152,13 +152,13 @@ const experiences = [
   },
   {
     title: "Editor",
-    company_name: "Wydawnictwo św. Stanisława BM",
+    company_name: "Publishing House of Saint Stanislaus",
     icon: stanislaw,
     iconBg: "#383E56",
     date: "February 2020 - present",
     points: [
       "Editing texts for textbooks.",
-      "Collaborating with editors, text authors, cartoonists, ilustrators, proofreaders and typesetters.",
+      "Collaborating with editors, text authors, cartoonists, illustrators, proofreaders and typesetters.",
       "Taking care of the high quality of texts for textbooks.",
       "Writing texts, correcting them.",
       "Graphic design preparation.",
@@ -210,7 +210,7 @@ const projects = [
   {
     name: "Country search",
     description:
-      "Web-based platform that allows users to search country and basic information about this.",
+      "Web-based platform that allows users to search countries and basic information about this.",
     tags: [
       {
         name: "javaScript",
@@ -232,7 +232,7 @@ const projects = [
   {
     name: "Web tropical paradise",
     description:
-      "Webpage with information, contact and advertisment some company.",
+      "Web Page with information, contact and advertisement some company.",
     tags: [
       {
         name: "html",
@@ -252,8 +252,8 @@ const projects = [
     source_code_link: "https://ewelinamaniecka.github.io/tropical-paradise/",
   },
   {
-    name: "Webpage for gammers",
-    description: "Webpage built in bootstrap 5",
+    name: "Web Page for gammers.",
+    description: "Web Page built in bootstrap 5",
     tags: [
       {
         name: "html",
@@ -296,7 +296,7 @@ const projects = [
   {
     name: "Todo App",
     description:
-      "Basic aplication when we can add (delete and change) something what we should do. .",
+      "Basic application when we can add (delete and change) something that we should do.",
     tags: [
       {
         name: "react",
@@ -317,7 +317,7 @@ const projects = [
   },
   {
     name: "Digital clock",
-    description: "Webpage with digital clock with many colours.",
+    description: "Web Page with digital clock with many colours.",
     tags: [
       {
         name: "html",
@@ -338,7 +338,7 @@ const projects = [
   },
   {
     name: "Memory game",
-    description: "Memory game build in react.",
+    description: "Memory game built in React.",
     tags: [
       {
         name: "react",
