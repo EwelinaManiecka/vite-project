@@ -252,8 +252,8 @@ const projects = [
     source_code_link: "https://ewelinamaniecka.github.io/tropical-paradise/",
   },
   {
-    name: "Web Page for gammers.",
-    description: "Web Page built in bootstrap 5",
+    name: "Web Page for gammers",
+    description: "Web Page built in bootstrap 5.",
     tags: [
       {
         name: "html",
