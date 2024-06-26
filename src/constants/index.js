@@ -117,23 +117,37 @@ const technologies = [
     icon: figma,
   },
   // {
-  //   name: "docker",
-  //   icon: docker,
+  //   name: "SQL",
+  //   icon: sql,
   // },
 ];
 
 const experiences = [
   {
-    title: "Teacher",
-    company_name: "Primary school and secondary school",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "February 2010 - August 2019",
+    title: "Fullstack Developer",
+    company_name: "Deimos Software",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "August 2023 - present",
     points: [
-      "Teaching children and young people.",
-      "Collaborating with parents of children and young people.",
-      "Collaborating with teachers and the local community.",
-      "Organizing leisure time for children and teenagers.",
+      "Developing and maintaining web applications using React.js, Python, SQL, Next.js, JavaScript and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Editor and project manager",
+    company_name: "Publishing House of Saint Stanislaus",
+    icon: stanislaw,
+    iconBg: "#383E56",
+    date: "February 2020 - December 2023",
+    points: [
+      "Editing texts for textbooks, colaborate with other people, responsable for project and co-workers.",
+      "Collaborating with editors, text authors, cartoonists, illustrators, proofreaders and typesetters.",
+      "Taking care of the high quality of texts for textbooks.",
+      "Writing texts, correcting them.",
+      "Graphic design preparation.",
     ],
   },
   {
@@ -151,32 +165,18 @@ const experiences = [
     ],
   },
   {
-    title: "Editor",
-    company_name: "Publishing House of Saint Stanislaus",
-    icon: stanislaw,
+    title: "Teacher",
+    company_name: "Primary school and secondary school",
+    icon: starbucks,
     iconBg: "#383E56",
-    date: "February 2020 - present",
+    date: "February 2010 - August 2019",
     points: [
-      "Editing texts for textbooks.",
-      "Collaborating with editors, text authors, cartoonists, illustrators, proofreaders and typesetters.",
-      "Taking care of the high quality of texts for textbooks.",
-      "Writing texts, correcting them.",
-      "Graphic design preparation.",
+      "Teaching children and young people.",
+      "Collaborating with parents of children and young people.",
+      "Collaborating with teachers and the local community.",
+      "Organizing leisure time for children and teenagers.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
