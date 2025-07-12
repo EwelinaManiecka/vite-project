@@ -76,8 +76,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.heroSubText}>Get in touch</p>
-        <h3 className={styles.heroHeadText}>Contact.</h3>
+        <p className={styles.heroSubText}>Zostańmy w kontakcie</p>
+        <h3 className={styles.heroHeadText}>Kontakt</h3>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -85,7 +85,7 @@ const Contact = () => {
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">
-              What's your name?
+              Jak masz na imię?
             </span>
             <input
               type="text"
@@ -98,7 +98,7 @@ const Contact = () => {
           </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">
-              What's your email?
+              Jaki jest Twój mail?
             </span>
             <input
               type="email"
@@ -111,7 +111,7 @@ const Contact = () => {
           </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">
-              What do you want to say to me?
+              Co chcesz mi powiedzieć/napisać?
             </span>
             <textarea
               rows="7"
