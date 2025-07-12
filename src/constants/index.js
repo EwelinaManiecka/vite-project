@@ -128,7 +128,7 @@ const experiences = [
     company_name: "Deimos Software",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "August 2023 - present",
+    date: "July 2023 - present",
     points: [
       "Developing and maintaining web applications using React.js, Python, SQL, Next.js, JavaScript and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
