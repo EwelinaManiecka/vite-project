@@ -37,21 +37,25 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Skrót</p>
+        <h2 className={styles.sectionHeadText}>O mnie</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a junior fullstack developer. I like React, Node.js, SQL and I learn
-        Three.js. Soon I want lern TypeScript as well. I speak Spanish fluently
-        and English well. I come from Poland and therefore I speak Polish
-        fluently. I was a teacher and I work very well with people. I learn new
-        skills quickly. I was also an editor of books, the basics of UX/UI are
-        no strangers to me. I also like to draw. I know the basics of vector
-        graphics and photo processing. I would like to acquire knowledge and
-        experience working alongside the best programmers.
+        Jestem pedagogiem z wieloletnim stażem pracy, obecnie w trakcie studiów z psychologii. 
+        Ponadto jestem redaktorem. Z moim zespołem z sukcesem zakończyliśmy projekt edukacyjny.
+        Prowadziłam ten zespół przez 4 lata, byłam odpowiedzialna za treści, ale też za moich współpracowników.
+        W trakcie pracy redaktorskiej pomyślałam, że chcę być programistą. 
+        Szybko rozwijające się biblioteki do języków programowania mnie pokonały. 
+        Jednak wiedza zdobyta pozwala mi na robienie drobnych projektów, 
+        czy poprawianie czegoś dla siebie. 
+        W trakcie pracy z kodem, okazało się, 
+        że Szef potrzebuje także kogoś do pisania artykułów i tworzenia info-grafik. 
+        Tak oto przeszłam na stanowisko specjalisty ds. social mediów.
+        Wróciłam do nauczania.
+        Moje doświadczenie życiowe i zawodowe jest o wiele bogatsze niż może wskazywać na to ta strona.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
