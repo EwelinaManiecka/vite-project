@@ -36,33 +36,33 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "O mnie",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Praca",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Kontakt",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Pedagog",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Logoterapeuta",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Redaktor",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Specjalista ds. social mediów",
     icon: creator,
   },
 ];
@@ -124,57 +124,83 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Fullstack Developer",
-    company_name: "Deimos Software",
+    title: "Specjalista ds. social mediów",
+    company_name: "DeimosSoftware",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "July 2023 - present",
+    date: "Wrzesień 2024 - obecnie",
     points: [
-      "Developing and maintaining web applications using React.js, Python, SQL, Next.js, JavaScript and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Tworzenie artykułów oraz (info)grakik na social media.",
+      "Wrzucanie artykułów na bloga przez Strapi.",
+      "Tworzenie video oraz umieszczanie na odpowiednich platformach.",
+      "Dbanie o wizerunek firmy w social mediach.",
+    ],
+  },
+    {
+    title: "Programista",
+    company_name: "DeimosSoftware",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Lipiec 2023 - sierpień 2024",
+    points: [
+      "Programowanie aplikacji webowej w technologiach: React.js, Python, SQL, Next.js,JavaScript oraz innych technolgii.",
+      "Współpraca z zespołem - z programistami, grafikami, projekt managerem przy tworzeniu wysokiej jakości produktu.",
+      "Implementowanie stron responsywnych.",
+      "Uczestnictwo w code reviews oraz dawanie feedbacku.",
+    ],
+  },
+    {
+    title: "Nauczyciel",
+    company_name: "Szkoła podstawowa",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "Kwiecień 2024 - sierpień 2025",
+    points: [
+      "Nauczanie języka obcego.",
+      "Uczestnictwo w radach pedagogicznych i szkoleniach wewnątrzszkolnych.",
+      "Kontakt z uczniami i rodzicami za pośrednictwem dziennika elektronicznego.",
+      "Dbanie o bezpieczeństwo uczniów i jakość nauczania.",
     ],
   },
   {
-    title: "Editor and project manager",
-    company_name: "Publishing House of Saint Stanislaus",
+    title: "Redaktor i manager projektu",
+    company_name: "Wydawnictwo św. Stanisława BM",
     icon: stanislaw,
     iconBg: "#383E56",
-    date: "February 2020 - December 2023",
+    date: "Luty 2020 - grudzień 2023",
     points: [
-      "Editing texts for textbooks, colaborate with other people, responsable for project and co-workers.",
-      "Collaborating with editors, text authors, cartoonists, illustrators, proofreaders and typesetters.",
-      "Taking care of the high quality of texts for textbooks.",
-      "Writing texts, correcting them.",
-      "Graphic design preparation.",
+      "Edycja tekstów, współpraca z innymi osobami, odpowiedzialność za projekt i współpracowników.",
+      "Współpraca z redaktorami, autorami tekstów, korektorami, rysownikami oraz składaczami.",
+      "Utrzymywanie wysokiej jakości podręczników.",
+      "Pisanie tekstów i korekta.",
+      "Przygotowanie podręczników do druku.",
     ],
   },
   {
-    title: "Personal data administrator",
-    company_name: "Marriage Center",
+    title: "Administrator RODO",
+    company_name: "Klinika Małżeńska",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "December 2019 - February 2020",
+    date: "Grudzień 2019 - luty 2020",
     points: [
-      "Patient data managment.",
-      "Collaborating with psychologists and psychotherapists.",
-      "Managing the dates of therapy meetings.",
-      "Summary of daily income and expenses of company.",
-      "Training of new employees.",
+      "Dbanie o bezpieczeństwo danych pacjentów oraz terapeutówPatient data managment.",
+      "Wsółpraca z psychologami i psychoterapeutami.",
+      "Potwierdzanie oraz anulowanie sesji terapeutycznych.",
+      "Podsumowanie finansowe z dnia, tygodnia oraz miesiąca.",
+      "Szkolenie nowych pracowników.",
     ],
   },
   {
-    title: "Teacher",
-    company_name: "Primary school and secondary school",
+    title: "Nauczyciel",
+    company_name: "Szkoła podstawowa, liceum, technikum",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "February 2010 - August 2019",
+    date: "Luty 2010 - sierpień 2019",
     points: [
-      "Teaching children and young people.",
-      "Collaborating with parents of children and young people.",
-      "Collaborating with teachers and the local community.",
-      "Organizing leisure time for children and teenagers.",
+      "Nauczanie dzieci i młodzieży.",
+      "Współpraca z rodzicami oraz z gronem pedagogicznym.",
+      "Współpraca ze środowiskiem lokalnym.",
+      "Organizowanie czasu dzieci i młodzieży.",
     ],
   },
 ];
@@ -208,9 +234,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Country search",
+    name: "Country search/Wyszukiwarka krajów",
     description:
-      "Web-based platform that allows users to search countries and basic information about this.",
+      "Podstawowa aplikacja/platforma do wyszukiwania krajów i podstawowych informacji o nich.",
     tags: [
       {
         name: "javaScript",
@@ -230,9 +256,9 @@ const projects = [
     source_code_link: "https://ewelinamaniecka.github.io/country-search-new/",
   },
   {
-    name: "Web tropical paradise",
+    name: "Web tropical paradise/Strona 'tropikalny raj' ",
     description:
-      "Web Page with information, contact and advertisement some company.",
+      "Strona internetowa z informacjami, kontaktem i reklamą firmy.",
     tags: [
       {
         name: "html",
@@ -252,8 +278,8 @@ const projects = [
     source_code_link: "https://ewelinamaniecka.github.io/tropical-paradise/",
   },
   {
-    name: "Web Page for gammers",
-    description: "Web Page built in bootstrap 5.",
+    name: "Web Page for gammers/Strona dla graczy",
+    description: "Strona internetowa zbudowana na Bootstrap 5.",
     tags: [
       {
         name: "html",
@@ -294,9 +320,9 @@ const projects = [
   //   source_code_link: "https://ewelinamaniecka.github.io/space-x/",
   // },
   {
-    name: "Todo App",
+    name: "Todo App/Aplikacja 'do zrobieia'",
     description:
-      "Basic application when we can add (delete and change) something that we should do.",
+      "Podstawowa aplikacja, w której możesz dodać, usunąć, zmienić coś, co masz do zrobieia.",
     tags: [
       {
         name: "react",
@@ -316,8 +342,8 @@ const projects = [
     source_code_link: "https://ewelinamaniecka.github.io/todo-app-tasks/",
   },
   {
-    name: "Digital clock",
-    description: "Web Page with digital clock with many colours.",
+    name: "Digital clock/Zegar cyfrowy",
+    description: "Strona internetowa z zegarem cyfrowym o wielu kolorach.",
     tags: [
       {
         name: "html",
@@ -337,8 +363,8 @@ const projects = [
     source_code_link: "https://ewelinamaniecka.github.io/digital-clock/",
   },
   {
-    name: "Memory game",
-    description: "Memory game built in React.",
+    name: "Memory game/Gra pamięciowa",
+    description: "Gra pamięciowa zbudowana na React.js",
     tags: [
       {
         name: "react",
@@ -358,8 +384,8 @@ const projects = [
     source_code_link: "https://ewelinamaniecka.github.io/memory-game-react/",
   },
   {
-    name: "WeatherApp",
-    description: "Basic weather application.",
+    name: "WeatherApp/Aplikacja pogodowa",
+    description: "Podstawowa aplikacja pogodowa",
     tags: [
       {
         name: "react",
